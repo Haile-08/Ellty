@@ -1,4 +1,4 @@
-import { Button } from '../Elements';
+import { Button, ItemBox } from '../Elements';
 import './MainLayout.css';
 
 const MainLayout = () => {
@@ -6,8 +6,17 @@ const MainLayout = () => {
         <div className="main-layout">
             <div className="main-frame">
                 <div className="main-card">
-                    Hello world
-                    <hr/>
+                    <ItemBox/>
+                    <div className="line">
+                        <hr/>
+                    </div>
+                    <ItemBox/>
+                    <ItemBox/>
+                    <ItemBox/>
+                    <ItemBox/>
+                    <div className="line">
+                        <hr/>
+                    </div>
                     <Button/>
                 </div>
             </div>

@@ -2,9 +2,11 @@ import './Button.css';
 
 const Buttons = () => {
     return (
-        <button className='btn'>
-            Done
-        </button>
+        <div className="btn">
+            <button >
+                Done
+            </button>
+        </div>
     );
 };
 

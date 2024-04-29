@@ -1,0 +1,8 @@
+.item-box {
+    width: 333px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px 8px 22px;
+}
