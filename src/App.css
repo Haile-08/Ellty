@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #root {
   margin: 0;
   padding:0;
   --main-button-color: #FFCE22;
+  --hover-button-color: #FFD84D;
   --main-background-color: #FFFFFF;
+  --main-checkbox-default-color: #CDCDCD;
+  --main-checkbox-variant-2-color: #BDBDBD;
   --main-checked-input-color: #2469F6;
   --main-border-color: #EEEEEE;
 }

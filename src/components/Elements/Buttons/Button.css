@@ -5,7 +5,23 @@
     align-items: center;
     justify-content: center;
 }
+
 .btn button {
+    width: 340px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-button-color);
+}
+
+.btn button:hover {
     width: 340px;
     height: 40px;
     border-radius: 4px;
@@ -13,5 +29,5 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: var(--main-button-color);
+    background-color: var(--hover-button-color);
 }

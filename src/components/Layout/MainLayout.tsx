@@ -6,14 +6,14 @@ const MainLayout = () => {
         <div className="main-layout">
             <div className="main-frame">
                 <div className="main-card">
-                    <ItemBox />
+                    <ItemBox text={'All pages'}/>
                     <div className="line">
                         <hr/>
                     </div>
-                    <ItemBox/>
-                    <ItemBox/>
-                    <ItemBox/>
-                    <ItemBox/>
+                    <ItemBox text={'Page 1'}/>
+                    <ItemBox text={'Page 2'}/>
+                    <ItemBox text={'Page 3'}/>
+                    <ItemBox text={'Page 4'}/>
                     <div className="line">
                         <hr/>
                     </div>

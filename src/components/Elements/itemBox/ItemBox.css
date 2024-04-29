@@ -7,6 +7,13 @@
     padding: 8px 15px 8px 22px;
 }
 
+.item-box p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
 .check-container{
     width: 35px;
     height: 35px;
@@ -24,7 +31,7 @@
     width: 23px;
     height: 23px;
     border-radius: 6px;
-    border: solid 1px #CDCDCD;
+    border: solid 1px var(--main-checkbox-default-color);
     opacity: 60%;
     cursor: pointer;
 }
@@ -32,15 +39,31 @@
 .item-box .check-container input[type='checkbox']:hover {
     appearance: none;
     -webkit-appearance: none;
-    background-image: url('../../../assets/hover-icon.svg');
+    background-image: url('../../../assets/hover-check-icon.svg');
     background-repeat: no-repeat;
     background-position: center; /* Center the background image */
     display: inline-block;
     width: 23px;
     height: 23px;
     border-radius: 6px;
-    border: solid 1px #CDCDCD;
+    border: solid 1px var(--main-checkbox-variant-2-color);
     opacity: 60%;
+    cursor: pointer;
+}
+
+.item-box .check-container input[type='checkbox']::before{
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('../../../assets/before-check-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    border: solid 1px var(--main-checkbox-variant-2-color);
+    opacity: 60%;
+    box-shadow: 0 0 0 6px #246af644;
     cursor: pointer;
 }
 
