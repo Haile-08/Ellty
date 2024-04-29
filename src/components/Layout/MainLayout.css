@@ -3,5 +3,25 @@
     height: 100dvh;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    align-items: center;
+    background-color: var(--main-background-color);
+}
+
+.main-frame {
+    width: 578px;
+    height: 794px;
+}
+.main-card {
+    position: relative;
+    width: 370px;
+    height: 326px;
+    top: 85px;
+    left:104px;
+    border-radius: 6px;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid var(--main-border-color);
+}
+
+hr {
+    width: 370px;
 }
