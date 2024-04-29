@@ -1,4 +1,7 @@
 #root {
   margin: 0;
   padding:0;
+  --main-button-color: #FFCE22;
+  --main-background-color: #FFFFFF;
+  --main-checked-input-color: #2469F6;
 }
