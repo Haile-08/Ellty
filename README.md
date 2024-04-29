@@ -22,7 +22,7 @@ it mirrors the original design's aesthetics, functionality.
 
 ## Live demo
 
-[Ellty live demo](https://link-url-here.org)
+[Ellty live demo](https://ellty-nine.vercel.app/)
 
 ## Local installation
 
