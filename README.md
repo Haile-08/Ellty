@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <br>
+  ELLTY
+  <br>
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#Live-demo">Live Demo</a> •
+  <a href="#Local-installation">Local installation</a> •
+  <a href="#User-Interface">User Interface</a> •
+</p>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+The goal of this assignment is to replicate a specified component using
+HTML, CSS, and JavaScript (if necessary). Your task involves accurately
+recreating a component based on the provided design from Figma, ensuring
+it mirrors the original design's aesthetics, functionality. 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Live demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+[Ellty live demo](https://link-url-here.org)
+
+## Local installation
+
+To clone and run this application, you'll need 
+[Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+#### Clone the repo
+```bash
+git clone https://github.com/Haile-08/Ellty.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### Install node module
+
+Installation
+```bash
+npm install
+```
+
+#### Start the service
+
+react client
+```bash
+npm run dev
+```
+
+## User Interface
+
+<h1 align="center">
+  <br>
+  <a ><img src="https://i.imgur.com/wXx59Hf.png" alt="Markdownify" width="100%"></a>
+</h1>
