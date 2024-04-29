@@ -1,5 +1,6 @@
 import { AppProviderProps } from '../@types/app';
 
+
 const AppProvider = ({ children }: AppProviderProps) => {
     return (
         <div>
