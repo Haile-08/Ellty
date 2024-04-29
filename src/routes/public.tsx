@@ -3,6 +3,7 @@ import {
     RouterProvider,
     useRouteError,
 } from 'react-router-dom';
+import { MainLayout } from '../components';
 
 function ErrorPage() {
     const error: unknown = useRouteError();
@@ -22,7 +23,7 @@ const PublicRoutes = () => {
     const router = createBrowserRouter([
         {
             path: '/',
-            element: <div>Hello world!</div>,
+            element: <MainLayout/>,
             errorElement: <ErrorPage />,
         },
     ]);
