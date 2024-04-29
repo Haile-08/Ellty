@@ -6,7 +6,7 @@ const MainLayout = () => {
         <div className="main-layout">
             <div className="main-frame">
                 <div className="main-card">
-                    <ItemBox/>
+                    <ItemBox />
                     <div className="line">
                         <hr/>
                     </div>

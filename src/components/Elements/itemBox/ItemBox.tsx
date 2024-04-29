@@ -4,7 +4,9 @@ const ItemBox = () => {
     return (
         <div className='item-box'>
             <p>All pages</p>
-            <input type="checkbox" name="item" />
+            <div className="check-container">
+                <input type="checkbox" name="item" />
+            </div>
         </div>
     );
 };
