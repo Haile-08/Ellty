@@ -1,6 +1,8 @@
+import './MainLayout.css';
+
 const MainLayout = () => {
     return (
-        <div>
+        <div className="main-layout">
             Hello world
         </div>
     );
